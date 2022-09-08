@@ -1,4 +1,3 @@
-#!/bin/bash
 #inlcude <stdio.h>
 /**
  * main - entry point
