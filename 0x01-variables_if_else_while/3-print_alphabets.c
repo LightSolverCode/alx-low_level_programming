@@ -12,7 +12,6 @@
 int main(void)
 {
 	char ch;
-	char u;
 
 	for (ch = 'a'; ch <= 'z'; ch++)
 	{
