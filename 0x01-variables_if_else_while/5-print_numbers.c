@@ -15,10 +15,8 @@ int main(void)
 
 	for (a = 0; a < 10; a++)
 	{
-		putchar(a);
+		printf("%d\n", a);
 	}
-
-	printf("%d\n", a);
 
 	return (0);
 }
