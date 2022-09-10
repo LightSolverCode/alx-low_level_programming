@@ -18,7 +18,7 @@ int main(void)
 		putchar(a);
 	}
 
-	putchar('\n');
+	printf("%d\n", a);
 
 	return (0);
 }
