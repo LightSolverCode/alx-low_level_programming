@@ -1,10 +1,9 @@
 #include "main.h"
 /**
- * purpose: print a word using putchar.
- *
- * return: 0
+ * Description: print a word with putchar
+ * return: 0;
  */
-int main(void)
+int word_print(void)
 {
 		_putchar('_');
 		_putchar('p');
