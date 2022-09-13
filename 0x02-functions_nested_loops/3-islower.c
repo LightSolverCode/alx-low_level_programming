@@ -1,7 +1,9 @@
 #include "main.h"
 /**
-* _islower(int c) -> returns lower case
-*/
+ * _islower - check the code.
+ * @c: argument passed
+ * Return: Always 0.
+ */
 int _islower(int c)
 {
 	return (c >= 'a' && c <= 'z');
