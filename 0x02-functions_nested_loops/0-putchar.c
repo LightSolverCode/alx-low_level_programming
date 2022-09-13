@@ -1,12 +1,8 @@
-#include <stdio.h>
-#include main.h
 /*
  * purpose: print a word using putchar.
  *
  * return: 0
  */
-int main.h(_putchar);
-
 int main(void)
 {
 		_putchar('_');
