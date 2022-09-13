@@ -1,3 +1,4 @@
+#include <stdio.h>
 /*
  * purpose: print a word using putchar.
  *
