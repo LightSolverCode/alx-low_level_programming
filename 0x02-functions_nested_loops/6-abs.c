@@ -2,7 +2,7 @@
 #include <stdlib.h>
 /**
  * _abs(int a)- computes absolute value of an integer
- * 'int a' -> input
+ * a -> input
  * Return: int.
  */
 int _abs(int a)
