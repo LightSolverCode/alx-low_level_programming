@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "main.h"
 /*
  * purpose: print a word using putchar.
  *
