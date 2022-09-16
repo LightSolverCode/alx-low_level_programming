@@ -7,16 +7,13 @@
  */
 int _isupper(int c)
 {
-	int zero = 0;
-	int one = 1;
-
 	if isupper(c)
 	{
-		putchar(one);
+		putchar('1');
 	}
 	else if (islower(c))
 	{
-		putchar(zero);
+		putchar('0');
 	}
 	return (0);
 }
