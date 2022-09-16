@@ -7,13 +7,16 @@
  */
 int _isupper(int c)
 {
+	int zero = 0;
+	int one = 1;
+
 	if isupper(c)
 	{
-		printf("%d: 1\n", c);
+		printf("%d: one\n", c);
 	}
 	else if (islower(c))
 	{
-		printf("%d: 0\n", c);
+		printf("%d: zero\n", c);
 	}
 	return (0);
 }
