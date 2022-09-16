@@ -7,7 +7,6 @@
  */
 int _isupper(int c)
 {
-	c = 'c';
 	if isupper(c)
 	{
 		printf("%d: 1\n", c);
