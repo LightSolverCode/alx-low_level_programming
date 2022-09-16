@@ -1,6 +1,5 @@
-#include "main.h"
 #include <stdio.h>
-
+#include <ctype.h>
 /**
  * main - check the code.
  *
@@ -10,9 +9,14 @@ int main(void)
 {
 	char c;
 
-    	c = 'A';
-    	printf("%c: %d\n", c, _isupper(c));
-    	c = 'a';
-    	printf("%c: %d\n", c, _isupper(c));
-    	return (0);
+	c = 'c';
+	if isupper(c)
+	{
+		printf("1\n");
+	}
+	else
+	{
+		printf("0\n");
+	}
+	return (0);
 }
