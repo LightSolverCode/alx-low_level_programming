@@ -12,11 +12,11 @@ int main(void)
 	c = 'c';
 	if isupper(c)
 	{
-		printf("1\n");
+		printf("%c: %d1\n");
 	}
 	else
 	{
-		printf("0\n");
+		printf("%c: %d0\n");
 	}
 	return (0);
 }
