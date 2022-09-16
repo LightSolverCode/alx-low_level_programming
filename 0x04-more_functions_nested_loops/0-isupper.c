@@ -1,22 +1,20 @@
 #include <stdio.h>
 #include <ctype.h>
 /**
- * main - check the code.
- *
+ * _isupper - check the code.
+ * @c: argument passed
  * Return: Always 0.
  */
-int main(void)
+int _isupper(int c)
 {
-	char c;
-
 	c = 'c';
 	if isupper(c)
 	{
-		printf("%c: 1\n", c);
+		printf("%d: 1\n", c);
 	}
 	else
 	{
-		printf("%c: 0\n", c);
+		printf("%d: 0\n", c);
 	}
 	return (0);
 }
