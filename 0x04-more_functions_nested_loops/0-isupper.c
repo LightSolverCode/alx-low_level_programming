@@ -12,11 +12,11 @@ int _isupper(int c)
 
 	if isupper(c)
 	{
-		printf("%d: %d\n", c, one);
+		_putchar(one);
 	}
 	else if (islower(c))
 	{
-		printf("%d: %d\n", c, zero);
+		_printf(zero);
 	}
 	return (0);
 }
