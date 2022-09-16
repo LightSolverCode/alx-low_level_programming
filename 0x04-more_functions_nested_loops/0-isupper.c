@@ -11,7 +11,7 @@ int _isupper(int c)
 	{
 		printf("%d: 1\n", c);
 	}
-	else
+	else if (islower(c))
 	{
 		printf("%d: 0\n", c);
 	}
