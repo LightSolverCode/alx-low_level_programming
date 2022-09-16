@@ -11,8 +11,6 @@ int _isupper(int c)
 	{
 		putchar('1');
 	}
-	else if (islower(c))
-	{
 		putchar('0');
 	}
 	return (0);
